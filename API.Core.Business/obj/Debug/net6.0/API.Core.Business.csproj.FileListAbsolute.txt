@@ -1,0 +1,42 @@
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.deps.json
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.AssemblyInfoInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.AssemblyInfo.cs
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\refint\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\ref\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.runtimeconfig.json
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.genruntimeconfig.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.deps.json
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.runtimeconfig.json
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.pdb
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.AssemblyInfoInputs.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.AssemblyInfo.cs
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\refint\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.pdb
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.genruntimeconfig.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\ref\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.deps.json
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.runtimeconfig.json
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\bin\Debug\net6.0\API.Core.Business.pdb
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.AssemblyInfoInputs.cache
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.AssemblyInfo.cs
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\refint\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.pdb
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\API.Core.Business.genruntimeconfig.cache
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Core.Business\obj\Debug\net6.0\ref\API.Core.Business.dll

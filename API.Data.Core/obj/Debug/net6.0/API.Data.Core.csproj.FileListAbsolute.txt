@@ -1,0 +1,57 @@
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.AssemblyInfoInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.AssemblyInfo.cs
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.deps.json
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.runtimeconfig.json
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Generic.Core.dll
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Core.Business.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Generic.Core.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.csproj.CopyComplete
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\refint\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.genruntimeconfig.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana4\Clase17\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\ref\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.deps.json
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.runtimeconfig.json
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.pdb
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Generic.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Core.Business.pdb
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Generic.Core.pdb
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.AssemblyInfoInputs.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.AssemblyInfo.cs
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.csproj.CopyComplete
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\refint\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.pdb
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.genruntimeconfig.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\ref\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.deps.json
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.runtimeconfig.json
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Data.Core.pdb
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Core.Business.dll
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Generic.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Core.Business.pdb
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Generic.Core.pdb
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.AssemblyInfoInputs.cache
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.AssemblyInfo.cs
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.csproj.CopyComplete
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\refint\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.pdb
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.genruntimeconfig.cache
+C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\ref\API.Data.Core.dll

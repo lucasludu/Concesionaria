@@ -1,0 +1,455 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\WebApiConcecionaria\\WebApiConcecionaria.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj",
+        "projectName": "API.Core.Business",
+        "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj",
+        "packagesPath": "C:\\Users\\Lucaaas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lucaaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.16.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Data.Core\\API.Data.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Data.Core\\API.Data.Core.csproj",
+        "projectName": "API.Data.Core",
+        "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Data.Core\\API.Data.Core.csproj",
+        "packagesPath": "C:\\Users\\Lucaaas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Data.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lucaaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj": {
+                "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj"
+              },
+              "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Generic.Core\\API.Generic.Core.csproj": {
+                "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Generic.Core\\API.Generic.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.16.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Generic.Core\\API.Generic.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Generic.Core\\API.Generic.Core.csproj",
+        "projectName": "API.Generic.Core",
+        "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Generic.Core\\API.Generic.Core.csproj",
+        "packagesPath": "C:\\Users\\Lucaaas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Generic.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lucaaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj": {
+                "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.16.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Uses.Cases\\API.Uses.Cases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Uses.Cases\\API.Uses.Cases.csproj",
+        "projectName": "API.Uses.Cases",
+        "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Uses.Cases\\API.Uses.Cases.csproj",
+        "packagesPath": "C:\\Users\\Lucaaas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Uses.Cases\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lucaaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj": {
+                "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj"
+              },
+              "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Data.Core\\API.Data.Core.csproj": {
+                "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Data.Core\\API.Data.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.16.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\WebApiConcecionaria\\WebApiConcecionaria.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\WebApiConcecionaria\\WebApiConcecionaria.csproj",
+        "projectName": "WebApiConcecionaria",
+        "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\WebApiConcecionaria\\WebApiConcecionaria.csproj",
+        "packagesPath": "C:\\Users\\Lucaaas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\WebApiConcecionaria\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lucaaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Uses.Cases\\API.Uses.Cases.csproj": {
+                "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Uses.Cases\\API.Uses.Cases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.16.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
