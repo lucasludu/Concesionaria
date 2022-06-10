@@ -12,12 +12,16 @@ namespace VentaDeVehiculo.Controllers
     public class VehiculoController : ControllerBase
     {
         private readonly IUnitOfWork _context;
+        private readonly ILogger<VehiculoController> _logger;
 
-        public VehiculoController(IUnitOfWork context)
+        public VehiculoController(IUnitOfWork context, ILogger<VehiculoController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
+
+        #region GET
         /// <summary>
         /// Muestra todos los vehiculos
         /// </summary>
@@ -27,7 +31,10 @@ namespace VentaDeVehiculo.Controllers
             var entidad = _context.VehiculoRepo.GetAll();
             return Ok(entidad);
         }
+        #endregion
 
+
+        #region POST
         /// <summary>
         /// Crea el vehiculo
         /// </summary>
@@ -46,7 +53,10 @@ namespace VentaDeVehiculo.Controllers
             _context.Save();
             return Ok();
         }
+        #endregion
 
+
+        #region PUT
         /// <summary>
         /// Modifica el vehiculo
         /// </summary>
@@ -63,13 +73,17 @@ namespace VentaDeVehiculo.Controllers
         {
             if (id != vehiculo.Id)
             {
+                _logger.LogError("ID Incorrecto.");
                 return BadRequest();
             }
             _context.VehiculoRepo.Update(vehiculo);
             _context.Save();
             return Ok();
         }
+        #endregion
 
+
+        #region DELETE
         /// <summary>
         /// Elimina al vehiculo
         /// </summary>
@@ -87,6 +101,7 @@ namespace VentaDeVehiculo.Controllers
             var entity = _context.VehiculoRepo.GetById(id);
             if (entity == null)
             {
+                _logger.LogError("No se encuentra la entidad");
                 return NotFound();
             }
             _context.VehiculoRepo.Delete(id);
@@ -94,5 +109,8 @@ namespace VentaDeVehiculo.Controllers
 
             return Ok();
         }
+        #endregion
+
+
     }
 }

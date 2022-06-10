@@ -16,12 +16,16 @@ namespace VentaDeVehiculo.Controllers
     {
 
         private readonly IUnitOfWork _context;
+        private readonly ILogger<ClienteController> _logger;
 
-        public ClienteController(IUnitOfWork context) 
+        public ClienteController(IUnitOfWork context, ILogger<ClienteController> logger) 
         {
             _context = context;
+            _logger = logger;
         }
 
+
+        #region GET
         /// <summary>
         /// Muestra a todos los clientes
         /// </summary>
@@ -32,7 +36,10 @@ namespace VentaDeVehiculo.Controllers
             var entidad = _context.ClienteRepo.GetAll();
             return Ok(entidad);
         }
+        #endregion
 
+
+        #region POST
         /// <summary>
         /// Crea el cliente
         /// </summary>
@@ -52,7 +59,10 @@ namespace VentaDeVehiculo.Controllers
             _context.Save();
             return Ok();
         }
+        #endregion
 
+
+        #region PUT
         /// <summary>
         /// Modifica al cliente
         /// </summary>
@@ -69,13 +79,17 @@ namespace VentaDeVehiculo.Controllers
         {
             if(id != cliente.Id)
             {
+                _logger.LogError("El ID ingresado no es correcto.");
                 return BadRequest();
             }
             _context.ClienteRepo.Update(cliente);
             _context.Save();
             return Ok();
         }
+        #endregion
 
+
+        #region DELETE
         /// <summary>
         /// Elimina al cliente
         /// </summary>
@@ -93,6 +107,7 @@ namespace VentaDeVehiculo.Controllers
             var entity = _context.ClienteRepo.GetById(id);
             if(entity == null)
             {
+                _logger.LogError("No se encuentra la entidad");
                 return NotFound();
             }
             _context.ClienteRepo.Delete(id);
@@ -100,6 +115,7 @@ namespace VentaDeVehiculo.Controllers
 
             return Ok();
         }
+        #endregion
 
     }
 }

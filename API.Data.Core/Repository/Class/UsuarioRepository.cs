@@ -2,14 +2,16 @@
 using API.Core.Business.Entities;
 using API.Data.Core.Repository.InterfaceRepo;
 using API.Generic.Core.Genericos;
+using Microsoft.Extensions.Logging;
 
 namespace API.Data.Core.Repository.Class
 {
     public class UsuarioRepository : GenericRepository<Usuario>, IUsuarioRepository
     {
-        public UsuarioRepository(AppDbContext db) : base(db)
+        public UsuarioRepository(AppDbContext db, ILogger logger) : base(db, logger)
         {
         }
+
         public Usuario GetByEmail(string email)
         {
             return _db.Usuarios.FirstOrDefault(a => a.Email == email);

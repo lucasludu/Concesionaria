@@ -20,17 +20,20 @@ namespace VentaDeVehiculo.Controllers
             _logger = logger;
         }
 
+        #region GET
         /// <summary>
         /// Muestra toda la venta
         /// </summary>
         [HttpGet]
         public ActionResult<IEnumerable<Venta>> Get()
         {
-            _logger.LogInformation("Get Venta");
             var entidad = _context.VentaRepo.GetAll();
             return Ok(entidad);
         }
+        #endregion
 
+
+        #region POST
         /// <summary>
         /// Crea la venta
         /// </summary>
@@ -45,12 +48,14 @@ namespace VentaDeVehiculo.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult Post([FromBody] Venta venta)
         {
-            _logger.LogInformation("Post Venta");
             _context.VentaRepo.Insert(venta);
             _context.Save();
             return Ok();
         }
+        #endregion
 
+
+        #region PUT
         /// <summary>
         /// Modifica a la venta
         /// </summary>
@@ -70,12 +75,14 @@ namespace VentaDeVehiculo.Controllers
                 _logger.LogError("ID Incorrecto");
                 return BadRequest();
             }
-            _logger.LogInformation("Put Venta");
             _context.VentaRepo.Update(venta);
             _context.Save();
             return Ok();
         }
+        #endregion
 
+
+        #region DELETE
         /// <summary>
         /// Elimina a la venta
         /// </summary>
@@ -96,11 +103,13 @@ namespace VentaDeVehiculo.Controllers
                 _logger.LogWarning("No se encuentra la entidad.");
                 return NotFound();
             }
-            _logger.LogInformation("Delete Venta");
             _context.VentaRepo.Delete(id);
             _context.Save();
 
             return Ok();
         }
+        #endregion
+
+
     }
 }

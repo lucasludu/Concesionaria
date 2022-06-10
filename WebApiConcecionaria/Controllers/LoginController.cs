@@ -16,6 +16,7 @@ namespace WebApiConcecionaria.Controllers
     {
         private readonly IUsuarioService _userService;
         private readonly IUnitOfWork _uOw;
+        private readonly ILogger<LoginController> _logger;
 
         public LoginController(IUsuarioService userService, IUnitOfWork uOw)
         {
@@ -23,7 +24,7 @@ namespace WebApiConcecionaria.Controllers
             _uOw = uOw;
         }
 
-
+        #region LOGIN
         /// <summary>
         /// Logueo de Usuario
         /// </summary>
@@ -47,7 +48,10 @@ namespace WebApiConcecionaria.Controllers
                 usuario = response
             });
         }
+        #endregion
 
+
+        #region REGISTRAR USUARIO
         /// <summary>
         /// Se Registra al usuario
         /// </summary>
@@ -65,5 +69,8 @@ namespace WebApiConcecionaria.Controllers
             UserResponse res = _userService.Registrar(req, req.Password);
             return Ok(res);
         }
+        #endregion
+
+
     }
 }
