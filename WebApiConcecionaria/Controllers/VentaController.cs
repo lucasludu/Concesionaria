@@ -1,19 +1,23 @@
 ﻿using API.Core.Business.Entities;
 using API.Uses.Cases.UOWork;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace VentaDeVehiculo.Controllers
 {
+    [Authorize]
     [Tags("Api de Venta")]
     [Route("api/[controller]")]
     [ApiController]
     public class VentaController : ControllerBase
     {
         private readonly IUnitOfWork _context;
+        private readonly ILogger<VentaController> _logger;
 
-        public VentaController(IUnitOfWork context)
+        public VentaController(IUnitOfWork context, ILogger<VentaController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         /// <summary>
@@ -22,6 +26,7 @@ namespace VentaDeVehiculo.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Venta>> Get()
         {
+            _logger.LogInformation("Get Venta");
             var entidad = _context.VentaRepo.GetAll();
             return Ok(entidad);
         }
@@ -40,6 +45,7 @@ namespace VentaDeVehiculo.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult Post([FromBody] Venta venta)
         {
+            _logger.LogInformation("Post Venta");
             _context.VentaRepo.Insert(venta);
             _context.Save();
             return Ok();
@@ -61,8 +67,10 @@ namespace VentaDeVehiculo.Controllers
         {
             if (id != venta.Id)
             {
+                _logger.LogError("ID Incorrecto");
                 return BadRequest();
             }
+            _logger.LogInformation("Put Venta");
             _context.VentaRepo.Update(venta);
             _context.Save();
             return Ok();
@@ -85,8 +93,10 @@ namespace VentaDeVehiculo.Controllers
             var entity = _context.VentaRepo.GetById(id);
             if (entity == null)
             {
+                _logger.LogWarning("No se encuentra la entidad.");
                 return NotFound();
             }
+            _logger.LogInformation("Delete Venta");
             _context.VentaRepo.Delete(id);
             _context.Save();
 

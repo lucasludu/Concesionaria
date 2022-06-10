@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gGxTK4k06Yc3gThZbRCCxOLLbhxnLtFp6V8Hjkbu5xqdf0iAcpTGvlqb+4xSxcsTgQlQ5nJBLcl1tkUw2GrA+g==",
+  "dgSpecHash": "Ldt5+L9kkwBM4pc/ArymK23bbMAl8NgbX+zU56tpWOfD1irdQyX3MCfEN1IVVMadZuhc+rv5VVvC6Qb+DxvTAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj",
   "expectedPackageFiles": [
@@ -60,7 +60,6 @@
     "C:\\Users\\Lucaaas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Lucaaas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Lucaaas\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "C:\\Users\\Lucaaas\\.nuget\\packages\\nlog\\5.0.0\\nlog.5.0.0.nupkg.sha512",
     "C:\\Users\\Lucaaas\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\Lucaaas\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.3.1\\swashbuckle.aspnetcore.annotations.6.3.1.nupkg.sha512",
     "C:\\Users\\Lucaaas\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",

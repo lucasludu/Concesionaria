@@ -1,4 +1,5 @@
 ﻿using API.Core.Business.DBContext;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Generic.Core.Genericos
 {
@@ -15,7 +16,6 @@ namespace API.Generic.Core.Genericos
         public void Delete(int? id)
         {
             var entity = GetById(id);//se fija si existe el campo
-
             if (entity == null)
             {
                 throw new Exception("No se encontro objeto");//en caso de que no exista

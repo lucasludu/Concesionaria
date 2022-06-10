@@ -738,15 +738,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "NLog/5.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/NLog.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/NLog.dll": {}
-        }
-      },
       "runtime.native.System/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -1308,7 +1299,6 @@
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.2.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.5",
           "Microsoft.EntityFrameworkCore": "6.0.5",
-          "NLog": "5.0.0",
           "Swashbuckle.AspNetCore.Annotations": "6.3.1"
         },
         "compile": {
@@ -2318,30 +2308,6 @@
         "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.2.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
-      ]
-    },
-    "NLog/5.0.0": {
-      "sha512": "OG9UQhhSnF31k1OImuZ3ogvJ+ktMI+P3QYhwA4cg3Fg5wznYS7PVQMzFglY2Bf4dHTYR/8CrNVgO7dFTfmvF2w==",
-      "type": "package",
-      "path": "nlog/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "N.png",
-        "lib/net35/NLog.dll",
-        "lib/net35/NLog.xml",
-        "lib/net45/NLog.dll",
-        "lib/net45/NLog.xml",
-        "lib/net46/NLog.dll",
-        "lib/net46/NLog.xml",
-        "lib/netstandard1.3/NLog.dll",
-        "lib/netstandard1.3/NLog.xml",
-        "lib/netstandard1.5/NLog.dll",
-        "lib/netstandard1.5/NLog.xml",
-        "lib/netstandard2.0/NLog.dll",
-        "lib/netstandard2.0/NLog.xml",
-        "nlog.5.0.0.nupkg.sha512",
-        "nlog.nuspec"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -4459,7 +4425,6 @@
       "Microsoft.AspNetCore.Mvc.DataAnnotations >= 2.2.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.5",
-      "NLog >= 5.0.0",
       "Swashbuckle.AspNetCore.Annotations >= 6.3.1"
     ]
   },
@@ -4527,10 +4492,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.5, )"
-          },
-          "NLog": {
-            "target": "Package",
-            "version": "[5.0.0, )"
           },
           "Swashbuckle.AspNetCore.Annotations": {
             "target": "Package",

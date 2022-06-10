@@ -3,7 +3,6 @@ using API.Uses.Cases.UOWork;
 using FakeItEasy;
 using Microsoft.AspNetCore.Mvc;
 using VentaDeVehiculo.Controllers;
-using Xunit;
 
 namespace Test
 {

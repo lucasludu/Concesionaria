@@ -1,9 +1,11 @@
 ﻿using API.Core.Business.Entities;
 using API.Uses.Cases.UOWork;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace VentaDeVehiculo.Controllers
 {
+    [Authorize]
     [Tags("Api de Vehiculo")]
     [Route("api/[controller]")]
     [ApiController]
