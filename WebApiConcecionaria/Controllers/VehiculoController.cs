@@ -12,12 +12,10 @@ namespace VentaDeVehiculo.Controllers
     public class VehiculoController : ControllerBase
     {
         private readonly IUnitOfWork _context;
-        private readonly ILogger<VehiculoController> _logger;
 
-        public VehiculoController(IUnitOfWork context, ILogger<VehiculoController> logger)
+        public VehiculoController(IUnitOfWork context)
         {
             _context = context;
-            _logger = logger;
         }
 
 
@@ -73,7 +71,6 @@ namespace VentaDeVehiculo.Controllers
         {
             if (id != vehiculo.Id)
             {
-                _logger.LogError("ID Incorrecto.");
                 return BadRequest();
             }
             _context.VehiculoRepo.Update(vehiculo);
@@ -101,7 +98,6 @@ namespace VentaDeVehiculo.Controllers
             var entity = _context.VehiculoRepo.GetById(id);
             if (entity == null)
             {
-                _logger.LogError("No se encuentra la entidad");
                 return NotFound();
             }
             _context.VehiculoRepo.Delete(id);

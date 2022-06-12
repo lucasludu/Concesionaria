@@ -2,13 +2,14 @@
 using API.Core.Business.Entities;
 using API.Data.Core.Repository.InterfaceRepo;
 using API.Generic.Core.Genericos;
+using API.Middleware.Core.Logger;
 using Microsoft.Extensions.Logging;
 
 namespace API.Data.Core.Repository.Class
 {
     public class UsuarioRepository : GenericRepository<Usuario>, IUsuarioRepository
     {
-        public UsuarioRepository(AppDbContext db, ILogger logger) : base(db, logger)
+        public UsuarioRepository(AppDbContext db, LoggerCustom logger) : base(db, logger)
         {
         }
 

@@ -1,0 +1,12 @@
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\bin\Debug\net6.0\API.Middleware.Core.deps.json
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\bin\Debug\net6.0\API.Middleware.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\bin\Debug\net6.0\API.Middleware.Core.pdb
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\obj\Debug\net6.0\API.Middleware.Core.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\obj\Debug\net6.0\API.Middleware.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\obj\Debug\net6.0\API.Middleware.Core.AssemblyInfoInputs.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\obj\Debug\net6.0\API.Middleware.Core.AssemblyInfo.cs
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\obj\Debug\net6.0\API.Middleware.Core.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\obj\Debug\net6.0\API.Middleware.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\obj\Debug\net6.0\refint\API.Middleware.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\obj\Debug\net6.0\API.Middleware.Core.pdb
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Middleware.Core\obj\Debug\net6.0\ref\API.Middleware.Core.dll

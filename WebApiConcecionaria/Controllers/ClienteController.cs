@@ -1,4 +1,5 @@
 ﻿using API.Core.Business.Entities;
+using API.Middleware.Core.Logger;
 using API.Uses.Cases.UOWork;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,7 +9,7 @@ namespace VentaDeVehiculo.Controllers
     /// <summary>
     /// 
     /// </summary>
-    [Authorize]
+  //  [Authorize]
     [Tags("Api de Cliente")]
     [Route("api/[controller]")]
     [ApiController]
@@ -17,11 +18,13 @@ namespace VentaDeVehiculo.Controllers
 
         private readonly IUnitOfWork _context;
         private readonly ILogger<ClienteController> _logger;
+        private LoggerCustom loggerCustom { get; set; }
 
         public ClienteController(IUnitOfWork context, ILogger<ClienteController> logger) 
         {
             _context = context;
             _logger = logger;
+            loggerCustom = new LoggerCustom(_logger);
         }
 
 
@@ -79,7 +82,6 @@ namespace VentaDeVehiculo.Controllers
         {
             if(id != cliente.Id)
             {
-                _logger.LogError("El ID ingresado no es correcto.");
                 return BadRequest();
             }
             _context.ClienteRepo.Update(cliente);
@@ -107,7 +109,6 @@ namespace VentaDeVehiculo.Controllers
             var entity = _context.ClienteRepo.GetById(id);
             if(entity == null)
             {
-                _logger.LogError("No se encuentra la entidad");
                 return NotFound();
             }
             _context.ClienteRepo.Delete(id);
@@ -116,6 +117,7 @@ namespace VentaDeVehiculo.Controllers
             return Ok();
         }
         #endregion
+
 
     }
 }

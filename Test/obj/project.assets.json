@@ -2082,6 +2082,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "API.Core.Business": "1.0.0",
+          "API.Middleware.Core": "1.0.0",
           "DocumentFormat.OpenXml": "2.16.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.5",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.2.0",
@@ -2095,12 +2096,27 @@
           "bin/placeholder/API.Generic.Core.dll": {}
         }
       },
+      "API.Middleware.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/API.Middleware.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/API.Middleware.Core.dll": {}
+        }
+      },
       "API.Uses.Cases/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "API.Core.Business": "1.0.0",
           "API.Data.Core": "1.0.0",
+          "API.Middleware.Core": "1.0.0",
           "DocumentFormat.OpenXml": "2.16.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.5",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.2.0",
@@ -6996,6 +7012,11 @@
       "path": "../API.Generic.Core/API.Generic.Core.csproj",
       "msbuildProject": "../API.Generic.Core/API.Generic.Core.csproj"
     },
+    "API.Middleware.Core/1.0.0": {
+      "type": "project",
+      "path": "../API.Middleware.Core/API.Middleware.Core.csproj",
+      "msbuildProject": "../API.Middleware.Core/API.Middleware.Core.csproj"
+    },
     "API.Uses.Cases/1.0.0": {
       "type": "project",
       "path": "../API.Uses.Cases/API.Uses.Cases.csproj",
@@ -7010,6 +7031,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "API.Core.Business >= 1.0.0",
+      "API.Middleware.Core >= 1.0.0",
       "API.Uses.Cases >= 1.0.0",
       "FakeItEasy >= 7.3.1",
       "MSTest.TestFramework >= 2.2.10",
@@ -7051,6 +7073,9 @@
           "projectReferences": {
             "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj": {
               "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Core.Business\\API.Core.Business.csproj"
+            },
+            "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Middleware.Core\\API.Middleware.Core.csproj": {
+              "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Middleware.Core\\API.Middleware.Core.csproj"
             },
             "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Uses.Cases\\API.Uses.Cases.csproj": {
               "projectPath": "C:\\Users\\Lucaaas\\Desktop\\Programación\\6 - Bootcamp\\WebApiConcecionaria\\API.Uses.Cases\\API.Uses.Cases.csproj"

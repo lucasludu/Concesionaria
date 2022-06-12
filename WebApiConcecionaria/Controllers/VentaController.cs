@@ -12,12 +12,10 @@ namespace VentaDeVehiculo.Controllers
     public class VentaController : ControllerBase
     {
         private readonly IUnitOfWork _context;
-        private readonly ILogger<VentaController> _logger;
 
-        public VentaController(IUnitOfWork context, ILogger<VentaController> logger)
+        public VentaController(IUnitOfWork context)
         {
             _context = context;
-            _logger = logger;
         }
 
         #region GET
@@ -72,7 +70,6 @@ namespace VentaDeVehiculo.Controllers
         {
             if (id != venta.Id)
             {
-                _logger.LogError("ID Incorrecto");
                 return BadRequest();
             }
             _context.VentaRepo.Update(venta);
@@ -100,7 +97,6 @@ namespace VentaDeVehiculo.Controllers
             var entity = _context.VentaRepo.GetById(id);
             if (entity == null)
             {
-                _logger.LogWarning("No se encuentra la entidad.");
                 return NotFound();
             }
             _context.VentaRepo.Delete(id);

@@ -61,3 +61,5 @@ C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.U
 C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Uses.Cases\obj\Debug\net6.0\API.Uses.Cases.pdb
 C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Uses.Cases\obj\Debug\net6.0\API.Uses.Cases.genruntimeconfig.cache
 C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Uses.Cases\obj\Debug\net6.0\ref\API.Uses.Cases.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Uses.Cases\bin\Debug\net6.0\API.Middleware.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Uses.Cases\bin\Debug\net6.0\API.Middleware.Core.pdb

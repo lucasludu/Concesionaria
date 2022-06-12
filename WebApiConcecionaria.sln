@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Generic.Core", "API.Gen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Uses.Cases", "API.Uses.Cases\API.Uses.Cases.csproj", "{B7BFE8DC-B724-44FD-9A07-1D933E8F75C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{0D6D913F-42EE-4F2A-B242-C9CE23394ED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{0D6D913F-42EE-4F2A-B242-C9CE23394ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Middleware.Core", "API.Middleware.Core\API.Middleware.Core.csproj", "{A75524D2-6C3D-48A0-BAC9-FBF54F0AEB2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{0D6D913F-42EE-4F2A-B242-C9CE23394ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D6D913F-42EE-4F2A-B242-C9CE23394ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D6D913F-42EE-4F2A-B242-C9CE23394ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75524D2-6C3D-48A0-BAC9-FBF54F0AEB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75524D2-6C3D-48A0-BAC9-FBF54F0AEB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75524D2-6C3D-48A0-BAC9-FBF54F0AEB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75524D2-6C3D-48A0-BAC9-FBF54F0AEB2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

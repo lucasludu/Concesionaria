@@ -241,3 +241,5 @@ C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\WebAp
 C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\WebApiConcecionaria\obj\Debug\net6.0\WebApiConcecionaria.pdb
 C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\WebApiConcecionaria\obj\Debug\net6.0\WebApiConcecionaria.genruntimeconfig.cache
 C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\WebApiConcecionaria\obj\Debug\net6.0\ref\WebApiConcecionaria.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\WebApiConcecionaria\bin\Debug\net6.0\API.Middleware.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\WebApiConcecionaria\bin\Debug\net6.0\API.Middleware.Core.pdb

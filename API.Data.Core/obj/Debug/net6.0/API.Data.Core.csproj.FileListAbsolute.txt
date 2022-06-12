@@ -55,3 +55,5 @@ C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.D
 C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.pdb
 C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\API.Data.Core.genruntimeconfig.cache
 C:\Users\Lucaaas\Desktop\Programación\1 - Universidad\WebApiConcecionaria\API.Data.Core\obj\Debug\net6.0\ref\API.Data.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Middleware.Core.dll
+C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\API.Data.Core\bin\Debug\net6.0\API.Middleware.Core.pdb

@@ -1032,6 +1032,7 @@
       "API.Generic.Core/1.0.0": {
         "dependencies": {
           "API.Core.Business": "1.0.0",
+          "API.Middleware.Core": "1.0.0",
           "DocumentFormat.OpenXml": "2.16.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.5",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.2.0",
@@ -1042,10 +1043,20 @@
           "API.Generic.Core.dll": {}
         }
       },
+      "API.Middleware.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "API.Middleware.Core.dll": {}
+        }
+      },
       "API.Uses.Cases/1.0.0": {
         "dependencies": {
           "API.Core.Business": "1.0.0",
           "API.Data.Core": "1.0.0",
+          "API.Middleware.Core": "1.0.0",
           "DocumentFormat.OpenXml": "2.16.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.5",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.2.0",
@@ -1880,6 +1891,11 @@
       "sha512": ""
     },
     "API.Generic.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "API.Middleware.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

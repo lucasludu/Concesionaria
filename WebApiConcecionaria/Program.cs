@@ -44,6 +44,7 @@ builder.Services.AddControllers().AddJsonOptions(x => {
 
 // Add services to the container.
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
@@ -137,7 +138,7 @@ if (app.Environment.IsDevelopment())
     });
 }
 // Middleware
-app.UseMiddleware<JwtMiddleware>();
+//app.UseMiddleware<EjemploMiddleware>();
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
