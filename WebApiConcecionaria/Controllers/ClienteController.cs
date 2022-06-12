@@ -36,6 +36,7 @@ namespace VentaDeVehiculo.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Cliente>> Get()
         {
+            loggerCustom.Info("Entidad --> Cliente");
             var entidad = _context.ClienteRepo.GetAll();
             return Ok(entidad);
         }

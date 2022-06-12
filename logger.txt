@@ -1,1 +1,2 @@
-11/6/2022 21:17:25: Get All --> Trae toda la entidad
+11/6/2022 21:26:54: Entidad --> Cliente
+11/6/2022 21:26:54: Get All --> Trae toda la entidad
