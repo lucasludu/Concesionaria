@@ -1,4 +1,5 @@
 ﻿using API.Core.Business.Entities;
+using API.Middleware.Core.Logger;
 using API.Uses.Cases.UOWork;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -12,10 +13,14 @@ namespace VentaDeVehiculo.Controllers
     public class VentaController : ControllerBase
     {
         private readonly IUnitOfWork _context;
+        private readonly ILogger<VentaController> _logger;
+        private LoggerCustom loggerCustom { get; set; }
 
-        public VentaController(IUnitOfWork context)
+        public VentaController(IUnitOfWork context, ILogger<VentaController> logger)
         {
             _context = context;
+            _logger = logger;
+            loggerCustom = new LoggerCustom(_logger);
         }
 
         #region GET
@@ -25,6 +30,7 @@ namespace VentaDeVehiculo.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Venta>> Get()
         {
+            loggerCustom.Info("[Get] Venta");
             var entidad = _context.VentaRepo.GetAll();
             return Ok(entidad);
         }
@@ -46,6 +52,7 @@ namespace VentaDeVehiculo.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult Post([FromBody] Venta venta)
         {
+            loggerCustom.Info("[Post] Venta");
             _context.VentaRepo.Insert(venta);
             _context.Save();
             return Ok();
@@ -70,8 +77,10 @@ namespace VentaDeVehiculo.Controllers
         {
             if (id != venta.Id)
             {
+                loggerCustom.Error("No se encuentra el registro");
                 return BadRequest();
             }
+            loggerCustom.Info("[Put] Venta");
             _context.VentaRepo.Update(venta);
             _context.Save();
             return Ok();
@@ -97,11 +106,12 @@ namespace VentaDeVehiculo.Controllers
             var entity = _context.VentaRepo.GetById(id);
             if (entity == null)
             {
-                return NotFound();
+                loggerCustom.Error("No se encuentra el registro solicitado");
+                return NotFound("No se encuentra el registro solicitado");
             }
+            loggerCustom.Info("[Delete] Venta");
             _context.VentaRepo.Delete(id);
             _context.Save();
-
             return Ok();
         }
         #endregion

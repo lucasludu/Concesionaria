@@ -12,8 +12,8 @@ namespace API.Middleware.Core.Logger
     {
         private ILogger _logger;
 
-        private string fileLocation = @"C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\logger.txt";
-        private string errorFileLoaction = @"C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\error.txt";
+        private string fileLocation = @"C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\logger.log";
+        private string errorFileLoaction = @"C:\Users\Lucaaas\Desktop\Programación\6 - Bootcamp\WebApiConcecionaria\error.log";
 
         public LoggerCustom(ILogger logger)
         {
@@ -73,11 +73,11 @@ namespace API.Middleware.Core.Logger
 
             if (_logger == null)
             {
-                Console.WriteLine(message);
+                Console.WriteLine("Error " + message);
             }
             else
             {
-                _logger.LogInformation(message);
+                _logger.LogError(message);
             }
 
             using (var wr = File.AppendText(errorFileLoaction))

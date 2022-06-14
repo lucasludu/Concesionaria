@@ -1,4 +1,5 @@
 ﻿using API.Core.Business.Entities;
+using API.Middleware.Core.Logger;
 using API.Uses.Cases.UOWork;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -12,10 +13,14 @@ namespace VentaDeVehiculo.Controllers
     public class VehiculoController : ControllerBase
     {
         private readonly IUnitOfWork _context;
+        private readonly ILogger<VehiculoController> _logger;
+        private LoggerCustom loggerCustom { get; set; }
 
-        public VehiculoController(IUnitOfWork context)
+        public VehiculoController(IUnitOfWork context, ILogger<VehiculoController> logger)
         {
             _context = context;
+            _logger = logger;
+            loggerCustom = new LoggerCustom(_logger);
         }
 
 
@@ -26,6 +31,7 @@ namespace VentaDeVehiculo.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Vehiculo>> Get()
         {
+            loggerCustom.Info("[Get] Vehiculo");
             var entidad = _context.VehiculoRepo.GetAll();
             return Ok(entidad);
         }
@@ -47,6 +53,7 @@ namespace VentaDeVehiculo.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult Post([FromBody] Vehiculo vehiculo)
         {
+            loggerCustom.Info("[Post] Vehiculo");
             _context.VehiculoRepo.Insert(vehiculo);
             _context.Save();
             return Ok();
@@ -71,8 +78,10 @@ namespace VentaDeVehiculo.Controllers
         {
             if (id != vehiculo.Id)
             {
+                loggerCustom.Error("No se encuentra el registro");
                 return BadRequest();
             }
+            loggerCustom.Info("[Put] Vehiculo");
             _context.VehiculoRepo.Update(vehiculo);
             _context.Save();
             return Ok();
@@ -98,11 +107,12 @@ namespace VentaDeVehiculo.Controllers
             var entity = _context.VehiculoRepo.GetById(id);
             if (entity == null)
             {
-                return NotFound();
+                loggerCustom.Error("No se encuentra el registro solicitado");
+                return NotFound("No se encuentra el registro solicitado");
             }
+            loggerCustom.Info("[Delete] Vehiculo");
             _context.VehiculoRepo.Delete(id);
             _context.Save();
-
             return Ok();
         }
         #endregion

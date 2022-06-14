@@ -1,7 +1,6 @@
 ﻿using API.Core.Business.Entities;
 using API.Middleware.Core.Logger;
 using API.Uses.Cases.UOWork;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace VentaDeVehiculo.Controllers
@@ -36,7 +35,7 @@ namespace VentaDeVehiculo.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Cliente>> Get()
         {
-            loggerCustom.Info("Entidad --> Cliente");
+            loggerCustom.Info("[Get] Cliente");
             var entidad = _context.ClienteRepo.GetAll();
             return Ok(entidad);
         }
@@ -59,6 +58,7 @@ namespace VentaDeVehiculo.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult Post([FromBody] Cliente cliente)
         {
+            loggerCustom.Info("[Post] Cliente");
             _context.ClienteRepo.Insert(cliente);
             _context.Save();
             return Ok();
@@ -83,8 +83,10 @@ namespace VentaDeVehiculo.Controllers
         {
             if(id != cliente.Id)
             {
+                loggerCustom.Error("No se encuentra el registro");
                 return BadRequest();
             }
+            loggerCustom.Info("[Put] Cliente");
             _context.ClienteRepo.Update(cliente);
             _context.Save();
             return Ok();
@@ -110,11 +112,12 @@ namespace VentaDeVehiculo.Controllers
             var entity = _context.ClienteRepo.GetById(id);
             if(entity == null)
             {
-                return NotFound();
+                loggerCustom.Error("No se encuentra el registro solicitado");
+                return NotFound("No se encuentra el registro solicitado");
             }
+            loggerCustom.Info("[Delete] Cliente");
             _context.ClienteRepo.Delete(id);
             _context.Save();
-
             return Ok();
         }
         #endregion

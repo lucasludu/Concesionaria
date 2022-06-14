@@ -10,15 +10,16 @@ namespace API.Uses.Cases.Middleware
         private readonly LoggerCustom customLogger;
         private readonly ILogger _logger;
 
-        public EjemploMiddleware(RequestDelegate next, ILoggerFactory loggerFactory)
+        public EjemploMiddleware(RequestDelegate next, ILoggerFactory logger)
         {
             _next = next;
+            _logger = logger.CreateLogger<LoggerCustom>();
+            customLogger = new LoggerCustom(_logger);
         }
 
-        public async Task Invoke(HttpContext context)
+        public async Task InvokeAsync(HttpContext context)
         {
-            DateTime dateTime = DateTime.Now.AddHours(-3);
-            _logger.LogInformation("Coneccion");
+            customLogger.Info("Ingreso al Middleware");
             await _next(context);
         }
     }
